@@ -2,7 +2,7 @@ import telebot
 import datetime
 import time
 
-API_TOKEN = '5641706093:AAEe2ASrU_j4FeUQueZDx5dx2dHJIzckr-I'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 
 time_now = datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S')
