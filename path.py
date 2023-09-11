@@ -1,0 +1,10 @@
+/home/BabayVolohatiy/ПонедельникНижний.png
+/home/BabayVolohatiy/ВторникНижний.png
+/home/BabayVolohatiy/СредаНижний.png
+/home/BabayVolohatiy/ЧетвергНижний.png
+/home/BabayVolohatiy/ПятницаНижний.png
+/home/BabayVolohatiy/ПонедельникВерхний.png
+/home/BabayVolohatiy/ВторникВерхний.png
+/home/BabayVolohatiy/СредаВерхний.png
+/home/BabayVolohatiy/ЧетвергВерхний.png
+/home/BabayVolohatiy/ПятницаВерхний.png
