@@ -44,9 +44,9 @@ def emails(message):
         elif week_day == 1 and hour<11:
             bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/ВторникНижний.png', 'rb'), caption = '<b>Вівторок (Нижній)</b>', parse_mode = 'html')
         elif week_day == 1 and hour>=11:
-            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаНижний.png', 'rb'), caption = "<b>Середа (Нижній)</b> + МАТАНАЛ П'ЯТОЮ ПАРОЮ", parse_mode = 'html')
+            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаНижний.png', 'rb'), caption = "<b>Середа (Нижній)</b>", parse_mode = 'html')
         elif week_day == 2 and hour<11:
-            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаНижний.png', 'rb'), caption = "<b>Середа (Нижній)</b> + МАТАНАЛ П'ЯТОЮ ПАРОЮ", parse_mode = 'html')
+            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаНижний.png', 'rb'), caption = "<b>Середа (Нижній)</b>", parse_mode = 'html')
         elif week_day == 2 and hour>=11:
             bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/ЧетвергНижний.png', 'rb'), caption = '<b>Четвер (Нижній)</b>', parse_mode = 'html')
         elif week_day == 3 and hour<11:
@@ -69,9 +69,9 @@ def emails(message):
         elif week_day == 1 and hour<11:
             bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/ВторникВерхний.png', 'rb'), caption = '<b>Вівторок (Верхній)</b>', parse_mode = 'html')
         elif week_day == 1 and hour>=11:
-            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаВерхний.png', 'rb'), caption = "<b>Середа (Нижній)</b> + МАТАНАЛ П'ЯТОЮ ПАРОЮ", parse_mode = 'html')
+            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаВерхний.png', 'rb'), caption = "<b>Середа (Нижній)</b>", parse_mode = 'html')
         elif week_day == 2 and hour<11:
-            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаВерхний.png', 'rb'), caption = "<b>Середа (Нижній)</b> + МАТАНАЛ П'ЯТОЮ ПАРОЮ", parse_mode = 'html')
+            bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/СредаВерхний.png', 'rb'), caption = "<b>Середа (Нижній)</b>", parse_mode = 'html')
         elif week_day == 2 and hour>=11:
             bot.send_photo(message.chat.id, open(r'/data/data/com.termux/files/home/projects/IK-201/ЧетвергВерхний.png', 'rb'), caption = '<b>Четвер (Верхній)</b>', parse_mode = 'html')
         elif week_day == 3 and hour<11:
