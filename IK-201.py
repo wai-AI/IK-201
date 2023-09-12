@@ -10,24 +10,6 @@ time_now = datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 @bot.message_handler(commands=['lessons'])
 def get_user_text(message):
     try:
-        """bot.send_message(message.chat.id,'<b>Дискретка: </b> <a href = "https://us02web.zoom.us/j/6757933043?pwd=UlpuOGRzVTRUdkRoTnNMMG9CRWhwZz09"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>(Назарчук) Українознавство:</b> <a href = "https://meet.google.com/bvc-ztzv-syb"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>Матанал: </b> <a href = "https://us05web.zoom.us/j/4665782212?pwd=dGFvc1hZREZ6TmZ2TkplVmVHemV5QT09"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>Фізика: </b> <a href = "https://us04web.zoom.us/j/8403490167?pwd=WWJ0em14ZEZOY3JERmhBTm5PZklTdz09"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>Комп. науки: </b> <a href = "http://meet.google.com/and-mxok-gdg"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>(Підгурська) Українознавство: </b> <a href = "https://us02web.zoom.us/j/87423098449?pwd=K2hEUlVuQzQwdmd3NUl3RlBtY3AvQT09"> Перейти </a> \n'
-                                        '\n'
-                                        '<b>Англійська: </b>  логін 5275904807   пароль 111111  \n'
-                                        '\n'
-                                        '<b>(Лекція) Філософія: </b> <a href = "https://us02web.zoom.us/j/83953459710?pwd=eklyVlExeWsyb21vMFFZSmVLVWtJUT09"> Перейти </a>  \n'
-                                        '\n'
-                                        '<b>(Семінар) Філософія: </b> <a href = "https://us02web.zoom.us/j/87645279706?pwd=d3VEV0NDM0pORmVpMi9EM09YOUkzQT09"> Перейти </a> \n', parse_mode='html')"""
-
         bot.send_message(message.chat.id, "Потом как нибудь")
 
     except Exception as e:
@@ -36,15 +18,15 @@ def get_user_text(message):
 @bot.message_handler(commands=['emails'])
 def emails(message):
     try:
-        bot.send_message(message.chat.id,'<b>ФІЗРА ПЛАВАННЯ</b> - yanishevskiy62@ukr.net \n'
+        bot.send_message(message.chat.id,'<b>ФІЗРА ПЛАВАННЯ</b> -  \n'
                                         '\n'
-                                        '<b>ФІЗРА ФІТНЕС</b> - dorika2@ukr.net \n'
+                                        '<b>ФІЗРА ФІТНЕС</b> -  \n'
                                         '\n'
-                                        '<b>ФІЗРА БАСКЕТ</b> - Marysia_rachok@icloud.com \n'
+                                        '<b>ФІЗРА БАСКЕТ</b> -  \n'
                                         '\n'
-                                        '<b>ФІЗРА ФУТБОЛ</b> - ssobotiuk@gmail.com \n'
+                                        '<b>ФІЗРА ФУТБОЛ</b> -  \n'
                                         '\n'
-                                        '<b>ХМАРА</b> - olkam@kneu.edu.ua \n', parse_mode='html')
+                                        '<b>ХМАРА</b> -  \n', parse_mode='html')
     except Exception as e:
         print("Error 2: ", e)
 
