@@ -7,10 +7,22 @@ bot = telebot.TeleBot(API_TOKEN)
 
 time_now = datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
+print("Start...")
+
 @bot.message_handler(commands=['lessons'])
 def get_user_text(message):
     try:
-        bot.send_message(message.chat.id, "Потом как нибудь")
+        bot.send_message(message.chat.id,'<b>Дискретка: </b> <a href = "https://us02web.zoom.us/j/6757933043?pwd=UlpuOGRzVTRUdkRoTnNMMG9CRWhwZz09"> Перейти </a> \n'
+                                        '\n'
+                                        '<b>Крипта (лекція):</b> <a href = "https://us05web.zoom.us/j/86246664838?pwd=v0YCXlXK4eQgbPK0HubQkA9lbBkSBv.1"> Перейти </a> \n'
+                                        '\n'
+                                        '<b>Крипта (практика): </b> <a href = "https://us05web.zoom.us/j/87832280496?pwd=V9F7yWbGOf1Kreo5bRHqjborrlKCYo.1"> Перейти </a> \n'
+                                        '\n'
+                                        '<b>Алгоритми: </b> <a href = "https://us04web.zoom.us/j/76854073083?pwd=Rb4o7hdj5Rd7mX1zz5ebxzklgIdjVh.1"> Перейти </a> \n'
+                                        '\n'
+                                        '<b>Труш:</b> <a href = "https://us04web.zoom.us/j/74898611963?pwd=ajFtS1Y3dlVZVGhqRDV1djZTMXN6dz09"> Перейти </a> \n'
+                                        '\n'
+                                        '<b>ТМС: </b> <a href = "https://us02web.zoom.us/j/83810477083?pwd=NTBKNWxBajk2WFFDSG04aFhFNitsZz09"> Перейти </a>', parse_mode='html')
 
     except Exception as e:
         print("Error 1: ", e)
@@ -18,15 +30,17 @@ def get_user_text(message):
 @bot.message_handler(commands=['emails'])
 def emails(message):
     try:
-        bot.send_message(message.chat.id,'<b>ФІЗРА ПЛАВАННЯ</b> -  \n'
+        bot.send_message(message.chat.id,'<b>ФІЗРА ПЛАВАННЯ</b> - yanishevskiy62@ukr.net \n'
                                         '\n'
-                                        '<b>ФІЗРА ФІТНЕС</b> -  \n'
+                                        '<b>ФІЗРА ФІТНЕС</b> - dorika2@ukr.net \n'
                                         '\n'
-                                        '<b>ФІЗРА БАСКЕТ</b> -  \n'
+                                        '<b>ФІЗРА БАСКЕТ</b> - Marysia_rachok@icloud.com \n'
                                         '\n'
-                                        '<b>ФІЗРА ФУТБОЛ</b> -  \n'
+                                        '<b>ФІЗРА ФУТБОЛ</b> - ssobotiuk@gmail.com \n'
+                                         '\n'
+                                        '<b>КРИПТА</b> - naghirnaalla@ukr.net \n'
                                         '\n'
-                                        '<b>ХМАРА</b> -  \n', parse_mode='html')
+                                        '<b>ХМАРА</b> - olkam@kneu.edu.ua \n', parse_mode='html')
     except Exception as e:
         print("Error 2: ", e)
 
